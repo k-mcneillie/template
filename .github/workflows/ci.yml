@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.11"] # Standardized to your scientific environment baseline
+        python-version: ["3.10", "3.11", "3.12"] # Standardized to your scientific environment baseline
 
     steps:
       - name: Checkout repository
