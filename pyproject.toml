@@ -67,6 +67,10 @@ warn_unused_configs = true
 disallow_untyped_defs = true # Enforces writing type hints for functions
 disallow_incomplete_defs = true
 
+[[tool.mypy.overrides]]
+module = "sesh.*"
+ignore_missing_imports = true
+
 [tool.ruff]
 line-length = 88
 target-version = "py310"
