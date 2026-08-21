@@ -1,4 +1,4 @@
-# sesh
+# Template
 A concise abstract summarizing the computational objective of this repository. Explain what model, data pipeline, or statistical framework this code implements.
 
 ## Methodology and Core Logic
